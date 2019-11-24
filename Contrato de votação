@@ -1,0 +1,15 @@
+pragma solidity ^0.4.22;
+
+   /// @contrato de votação 
+   contract Cédula {
+       
+       struct Condômino{
+           uint peso;
+           bool votou; // se a pessoa votou ou não;
+           address delegado; // quem está autorizado a votar em nome do Condômino
+           uint proposta; //qual a proposta em que o Condômino ou seu delegado votou
+           
+       }
+        
+   }     
+       
